@@ -4,6 +4,7 @@ import com.pengnix.gof.builder.BuilderWork;
 import com.pengnix.gof.decorator.DecoratoraWork;
 import com.pengnix.gof.facade.FacadeWork;
 import com.pengnix.gof.factory.FactoryWork;
+import com.pengnix.gof.observer.ObserverWork;
 import com.pengnix.gof.prototype.ProtoTypeWork;
 import com.pengnix.gof.proxy.ProxyWork;
 import com.pengnix.gof.simpleoperation.SimpeOpeWork;
@@ -14,7 +15,7 @@ public class MainClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		BuilderWork.work();
+		ObserverWork.work();
 	}
 
 }
