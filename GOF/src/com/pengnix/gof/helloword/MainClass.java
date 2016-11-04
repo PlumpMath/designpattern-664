@@ -9,6 +9,7 @@ import com.pengnix.gof.observer.ObserverWork;
 import com.pengnix.gof.prototype.ProtoTypeWork;
 import com.pengnix.gof.proxy.ProxyWork;
 import com.pengnix.gof.simpleoperation.SimpeOpeWork;
+import com.pengnix.gof.state.StateWork;
 import com.pengnix.gof.strategy.StrategyWork;
 import com.pengnix.gof.template.TemplateWork;
 
@@ -16,7 +17,6 @@ public class MainClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		AbstractFactoryWork.work();
+		StateWork.work();
 	}
-
 }
