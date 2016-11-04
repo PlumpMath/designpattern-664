@@ -1,5 +1,6 @@
 package com.pengnix.gof.helloword;
 
+import com.pengnix.gof.abstractfactory.AbstractFactoryWork;
 import com.pengnix.gof.builder.BuilderWork;
 import com.pengnix.gof.decorator.DecoratoraWork;
 import com.pengnix.gof.facade.FacadeWork;
@@ -15,7 +16,7 @@ public class MainClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ObserverWork.work();
+		AbstractFactoryWork.work();
 	}
 
 }
